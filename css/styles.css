@@ -1,0 +1,41 @@
+body{
+	font-family:"helvetica", sans-serif;
+	margin:0 auto;
+	display: table;
+}
+.circle{
+	
+	
+	color:#fff;
+	border-radius:50%;
+	text-align: center;
+	margin-top: 10px;
+	transition: background 1s, width 1s, height 1s, padding-top 1s, font-size 1s;
+	float: left;
+}
+.big-green {
+	width: 300px;
+	height: 150px;
+	padding-top: 150px;
+	background: green;
+}
+.small-red {width: 100px;
+padding-top: 40px;
+height: 60px;
+background: red;
+font-size: 10px;
+}
+.button{
+margin: 0 auto;
+display: table; 
+background:#ccc;
+padding: 10px;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+.button:hover {
+	background: #bbb;
+}
